@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Criado a connection para inserir os dados no mysql, usado o preparedStatement">
+    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Adicionado as dependencies, dependency do mysql no pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/project/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2TrW5hRt1WoDXFdiq98WfAAstWd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691801499193</updated>
       <workItem from="1691801500361" duration="2081000" />
-      <workItem from="1691840599305" duration="8249000" />
+      <workItem from="1691840599305" duration="12567000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Projeto de despesas">
       <created>1691801636172</created>
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691874789677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionado as dependencies, dependency do mysql no pom.xml">
+      <created>1691875684940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691875684940</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +178,7 @@
     <MESSAGE value="Criado Classe Categoria com enum, e package" />
     <MESSAGE value="Criado Classe de Conexão com mysql" />
     <MESSAGE value="Criado a connection para inserir os dados no mysql, usado o preparedStatement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado a connection para inserir os dados no mysql, usado o preparedStatement" />
+    <MESSAGE value="Adicionado as dependencies, dependency do mysql no pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado as dependencies, dependency do mysql no pom.xml" />
   </component>
 </project>
