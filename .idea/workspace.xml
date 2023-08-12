@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Criado Classe Categoria com enum, e package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/my/project/infra/ConnectionFactory.java" afterDir="false" />
+    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Criado Classe de Conexão com mysql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/model/Despesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/model/Despesa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691801499193</updated>
       <workItem from="1691801500361" duration="2081000" />
-      <workItem from="1691840599305" duration="5176000" />
+      <workItem from="1691840599305" duration="7408000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Projeto de despesas">
       <created>1691801636172</created>
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691851739639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criado Classe de Conexão com mysql">
+      <created>1691872441761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691872441761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="Criando Projeto de despesas" />
     <MESSAGE value="Criado Classe despesa, categoria e interfaceDao" />
     <MESSAGE value="Criado Classe Categoria com enum, e package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado Classe Categoria com enum, e package" />
+    <MESSAGE value="Criado Classe de Conexão com mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado Classe de Conexão com mysql" />
   </component>
 </project>
