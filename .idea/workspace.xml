@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Adicionado as dependencies, dependency do mysql no pom.xml">
+    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Alteração para encontrar o Id da despesa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/project/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/model/Despesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/model/Despesa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691801499193</updated>
       <workItem from="1691801500361" duration="2081000" />
-      <workItem from="1691840599305" duration="12567000" />
+      <workItem from="1691840599305" duration="16176000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Projeto de despesas">
       <created>1691801636172</created>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691875684940</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alteração para encontrar o Id da despesa">
+      <created>1691880603640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691880603640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +187,7 @@
     <MESSAGE value="Criado Classe de Conexão com mysql" />
     <MESSAGE value="Criado a connection para inserir os dados no mysql, usado o preparedStatement" />
     <MESSAGE value="Adicionado as dependencies, dependency do mysql no pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado as dependencies, dependency do mysql no pom.xml" />
+    <MESSAGE value="Alteração para encontrar o Id da despesa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração para encontrar o Id da despesa" />
   </component>
 </project>
