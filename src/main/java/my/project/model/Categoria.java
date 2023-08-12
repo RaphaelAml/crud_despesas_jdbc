@@ -6,6 +6,6 @@ public enum Categoria {
     EDUCACAO,
     SAUDE,
     TRANSPORTE,
-    MORARIA,
+    MORADIA,
     OUTROS
 }
