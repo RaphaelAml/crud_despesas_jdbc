@@ -4,11 +4,9 @@ import my.project.dao.DespesaDAO;
 import my.project.model.Categoria;
 import my.project.model.Despesa;
 
-import java.time.LocalDate;
 import java.util.List;
-import java.util.Optional;
 
-public class Application {
+public class ListarDespesas {
 
     public static void main(String[] args) {
 
