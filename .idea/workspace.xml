@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Feitos os metodos find categoria, id e encontrar todos os registro. Feito os testas para cada um dos metodos.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/my/project/model/AtualizarDespesa.java" afterDir="false" />
+    <list default="true" id="ede6140e-35c7-4448-8a2b-52514f166426" name="Changes" comment="Feitos os metodos update de registro">
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/project/model/RemoverDespesa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/project/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/ListarDespesas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/project/dao/DespesaDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AtualizarDespesa">
+  <component name="RunManager" selected="Application.RemoverDespesa">
     <configuration name="AtualizarDespesa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.project.model.AtualizarDespesa" />
       <module name="crud_despesas_jdbc" />
@@ -91,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoverDespesa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.project.model.RemoverDespesa" />
+      <module name="crud_despesas_jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.project.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoverDespesa" />
         <item itemvalue="Application.AtualizarDespesa" />
         <item itemvalue="Application.ListarDespesas" />
       </list>
@@ -107,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691801499193</updated>
       <workItem from="1691801500361" duration="2081000" />
-      <workItem from="1691840599305" duration="18019000" />
+      <workItem from="1691840599305" duration="18731000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Projeto de despesas">
       <created>1691801636172</created>
@@ -172,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691884196653</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Feitos os metodos update de registro">
+      <created>1691885998395</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691885998395</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +230,7 @@
     <MESSAGE value="Adicionado as dependencies, dependency do mysql no pom.xml" />
     <MESSAGE value="Alteração para encontrar o Id da despesa" />
     <MESSAGE value="Feitos os metodos find categoria, id e encontrar todos os registro. Feito os testas para cada um dos metodos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feitos os metodos find categoria, id e encontrar todos os registro. Feito os testas para cada um dos metodos." />
+    <MESSAGE value="Feitos os metodos update de registro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feitos os metodos update de registro" />
   </component>
 </project>

@@ -66,6 +66,18 @@ public class DespesaDAO implements IDespesaDAO {
     @Override
     public void delete(Long id) {
 
+        try (Connection connection = ConnectionFactory.getConnection()) {
+            String sql = "DELETE FROM Despesas WHERE id = ?";
+
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setLong(1,id);
+
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+
     }
 
     @Override
